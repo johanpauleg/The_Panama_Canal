@@ -1,0 +1,94 @@
+{
+    "Mantenimiento a una esclusa": {
+        "durationInHours": {
+            "min": 4,
+            "max": 6
+        },
+        "jrPilots": [
+            "exactly",
+            0
+        ],
+        "srPilots": [
+            "exactly",
+            0
+        ],
+        "maintTeams": [
+            "atLeast",
+            1
+        ],
+        "tugboats": [
+            "exactly",
+            0
+        ]
+    },
+    "Tránsito": {
+        "shipSize": {
+            "Pequeña": {
+                "durationInHours": {
+                    "min": 6,
+                    "max": 8
+                },
+                "jrPilots": [
+                    "exactly",
+                    1
+                ],
+                "srPilots": [
+                    "exactly",
+                    0
+                ],
+                "maintTeams": [
+                    "exactly",
+                    0
+                ],
+                "tugboats": [
+                    "atLeast",
+                    1
+                ]
+            },
+            "Mediana": {
+                "durationInHours": {
+                    "min": 8,
+                    "max": 10
+                },
+                "jrPilots": [
+                    "exactly",
+                    0
+                ],
+                "srPilots": [
+                    "exactly",
+                    1
+                ],
+                "maintTeams": [
+                    "exactly",
+                    0
+                ],
+                "tugboats": [
+                    "atLeast",
+                    2
+                ]
+            },
+            "Grande": {
+                "durationInHours": {
+                    "min": 10,
+                    "max": 12
+                },
+                "jrPilots": [
+                    "exactly",
+                    0
+                ],
+                "srPilots": [
+                    "exactly",
+                    1
+                ],
+                "maintTeams": [
+                    "exactly",
+                    0
+                ],
+                "tugboats": [
+                    "atLeast",
+                    3
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "jrPilots": 2,
+    "srPilots": 2,
+    "tugboats": 6,
+    "maintTeams": 3,
+    "locks": [
+        "A1",
+        "A2",
+        "A3",
+        "P1",
+        "P2",
+        "P3",
+        "C1",
+        "C2",
+        "C3"
+    ]
+}
