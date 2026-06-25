@@ -1,0 +1,17 @@
+{
+    "junior_pilots": 2,
+    "senior_pilots": 2,
+    "tugboats": 6,
+    "maintenance_teams": 3,
+    "locks": [
+        "P1",
+        "P2",
+        "P3",
+        "C1",
+        "C2",
+        "C3",
+        "A1",
+        "A2",
+        "A3"
+    ]
+}

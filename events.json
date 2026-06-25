@@ -1,0 +1,345 @@
+[
+    {
+        "id": "1",
+        "type": "One-time event",
+        "start_datetime": "2026-06-25T16:00:00",
+        "end_datetime": "2026-06-25T22:00:00",
+        "repeats": null,
+        "interval": null,
+        "subtype": "Transit",
+        "vessel_size": "Small",
+        "junior_pilots": 1,
+        "senior_pilots": 0,
+        "maintenance_teams": 0,
+        "tugboats": 1,
+        "locks": [
+            "A1",
+            "C1",
+            "P1"
+        ]
+    },
+    {
+        "id": "2",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-25T16:00:00",
+        "end_datetime": "2026-06-25T20:00:00",
+        "repeats": 5,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "A2"
+        ]
+    },
+    {
+        "id": "3",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-26T16:00:00",
+        "end_datetime": "2026-06-26T20:00:00",
+        "repeats": 5,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "A2"
+        ]
+    },
+    {
+        "id": "4",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-27T16:00:00",
+        "end_datetime": "2026-06-27T20:00:00",
+        "repeats": 5,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "A2"
+        ]
+    },
+    {
+        "id": "5",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-28T16:00:00",
+        "end_datetime": "2026-06-28T20:00:00",
+        "repeats": 5,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "A2"
+        ]
+    },
+    {
+        "id": "6",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-29T16:00:00",
+        "end_datetime": "2026-06-29T20:00:00",
+        "repeats": 5,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "A2"
+        ]
+    },
+    {
+        "id": "7",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-25T22:00:00",
+        "end_datetime": "2026-06-26T02:00:00",
+        "repeats": 3,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "A1"
+        ]
+    },
+    {
+        "id": "8",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-26T22:00:00",
+        "end_datetime": "2026-06-27T02:00:00",
+        "repeats": 3,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "A1"
+        ]
+    },
+    {
+        "id": "9",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-27T22:00:00",
+        "end_datetime": "2026-06-28T02:00:00",
+        "repeats": 3,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "A1"
+        ]
+    },
+    {
+        "id": "10",
+        "type": "One-time event",
+        "start_datetime": "2026-06-25T22:00:00",
+        "end_datetime": "2026-06-26T02:00:00",
+        "repeats": null,
+        "interval": null,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "11",
+        "type": "One-time event",
+        "start_datetime": "2026-06-26T02:00:00",
+        "end_datetime": "2026-06-26T06:00:00",
+        "repeats": null,
+        "interval": null,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "12",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-26T06:00:00",
+        "end_datetime": "2026-06-26T10:00:00",
+        "repeats": 2,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "13",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-27T06:00:00",
+        "end_datetime": "2026-06-27T10:00:00",
+        "repeats": 2,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "14",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-26T10:00:00",
+        "end_datetime": "2026-06-26T14:00:00",
+        "repeats": 2,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "15",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-27T10:00:00",
+        "end_datetime": "2026-06-27T14:00:00",
+        "repeats": 2,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "16",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-26T14:00:00",
+        "end_datetime": "2026-06-26T18:00:00",
+        "repeats": 2,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "17",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-27T14:00:00",
+        "end_datetime": "2026-06-27T18:00:00",
+        "repeats": 2,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "18",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-26T18:00:00",
+        "end_datetime": "2026-06-26T22:00:00",
+        "repeats": 2,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "19",
+        "type": "Recurring event",
+        "start_datetime": "2026-06-27T18:00:00",
+        "end_datetime": "2026-06-27T22:00:00",
+        "repeats": 2,
+        "interval": 1,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "P1"
+        ]
+    },
+    {
+        "id": "20",
+        "type": "One-time event",
+        "start_datetime": "2026-08-24T11:00:00",
+        "end_datetime": "2026-08-24T15:00:00",
+        "repeats": null,
+        "interval": null,
+        "subtype": "Lock maintenance",
+        "vessel_size": null,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "maintenance_teams": 1,
+        "tugboats": 0,
+        "locks": [
+            "C2"
+        ]
+    },
+    "21"
+]

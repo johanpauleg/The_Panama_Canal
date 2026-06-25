@@ -1,0 +1,114 @@
+{
+    "lock maintenance": {
+        "min_duration_hours": 4,
+        "max_duration_hours": 5,
+        "junior_pilots": 0,
+        "senior_pilots": 0,
+        "tugboats": 0,
+        "maintenance_teams": 1,
+        "locks": [
+            [
+                "P1"
+            ],
+            [
+                "P2"
+            ],
+            [
+                "P3"
+            ],
+            [
+                "C1"
+            ],
+            [
+                "C2"
+            ],
+            [
+                "C3"
+            ],
+            [
+                "A1"
+            ],
+            [
+                "A2"
+            ],
+            [
+                "A3"
+            ]
+        ]
+    },
+    "small vessel transit": {
+        "min_duration_hours": 6,
+        "max_duration_hours": 8,
+        "junior_pilots": 1,
+        "senior_pilots": 0,
+        "tugboats": 1,
+        "maintenance_teams": 0,
+        "locks": [
+            [
+                "A1",
+                "C1",
+                "P1"
+            ],
+            [
+                "A2",
+                "C2",
+                "P2"
+            ],
+            [
+                "A3",
+                "C3",
+                "P3"
+            ]
+        ]
+    },
+    "medium vessel transit": {
+        "min_duration_hours": 8,
+        "max_duration_hours": 11,
+        "junior_pilots": 0,
+        "senior_pilots": 1,
+        "tugboats": 2,
+        "maintenance_teams": 0,
+        "locks": [
+            [
+                "A1",
+                "C1",
+                "P1"
+            ],
+            [
+                "A2",
+                "C2",
+                "P2"
+            ],
+            [
+                "A3",
+                "C3",
+                "P3"
+            ]
+        ]
+    },
+    "large vessel transit": {
+        "min_duration_hours": 10,
+        "max_duration_hours": 14,
+        "junior_pilots": 0,
+        "senior_pilots": 1,
+        "tugboats": 3,
+        "maintenance_teams": 0,
+        "locks": [
+            [
+                "A1",
+                "C1",
+                "P1"
+            ],
+            [
+                "A2",
+                "C2",
+                "P2"
+            ],
+            [
+                "A3",
+                "C3",
+                "P3"
+            ]
+        ]
+    }
+}
