@@ -50,6 +50,26 @@ def delete_event(event_id):
 
 def home():
     st.title("Home page")
+    st.subheader("Welcome to The Panama Canal.")
+    st.write("You can two main actions:")
+    create, see_and_delete = st.columns(2)
+    with create:
+        with st.container(border=True):
+            st.write("Create a new event.")
+            
+    with see_and_delete:
+        with st.container(border=True):
+            st.write("See scheduled events and delete them.")
+    
+    with st.container(border=True):
+        st.write("When creating a new event:")
+        st.write("- You can chose between two types of events: One-time event or Recurring Event.")
+        st.write("-- If you choose to create a Recurring Event, you have to select how many repeats do you want there to be and the interval of time (in days) between those repeats.")
+        st.write("- You can chose what date and time you want your event to start and end.")
+        st.write("- You can chose between two events: Transit or Lock maintenance.")
+        st.write("-- If you choose to create a Transit, you have to select the size of the vessel that is going to sail trough the canal.")
+        st.write("- Then you can chose how many Junior pilots, Senior pilots, Maintenance teams and Tugboats, and which Locks, you are going to use at your event.")
+        st.write("- Then, you can press a button to Schedule the event, and the program I made is going to tell you if your event is valid, if it is not valid and if your event requires resources that are unavailable, and in that case, it will suggest to you the closest date in which your event resources are available and your event can be scheduled (of course, if there is not a date in which your event can happen, it will tell you so).")
 
 def add():
     st.title("Add events")
@@ -427,11 +447,9 @@ def schedule():
                                 for lock in event.get("locks"):
                                     locks += f"{lock}, "
                                 st.write(f"Locks: {locks[:-2]}")
-                        if st.button("Delete event", key=f"delete_{event.get("id")}"):
-                            delete_event(event.get("id"))
-                            st.rerun()
-                
-                        
+                    if st.button("Delete event", key=f"delete_{event.get("id")}"):
+                        delete_event(event.get("id"))
+                        st.rerun()
 
 pg_home = st.Page(home, title="Home page", icon=":material/home:")
 pg_add = st.Page(add, title="Add events", icon=":material/add:")
